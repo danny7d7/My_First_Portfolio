@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Learn HTML</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learn HTML - Tweets</title>
 </head>
 <body>
-	<header>
-    	<ul>
-        	<li><a href="index.html">Home</a></li>
-        	<li><a href="tweets.html">Tweets</a></li>
-    	</ul>
-	</header>
-	<main>
-		
-		<article>
-			<blockquote class="twitter-tweet">
-    		<p lang="en" dir="ltr">Example tweet text goes here. <a href="https://t.co/exampleURL">pic.twitter.com/exampleURL</a></p>
-    			&mdash; Twitter Handle (@username) <a href="https://twitter.com/Ronycoder/status/1969510543255093708">Month Day, Year</a>
-			</blockquote>
-		</article>
-	</main>
-	<footer></footer>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
+    <main>
+        <article>
+            <h1>Embedded Tweet</h1>
+            <!-- Paste the Twitter embed code here -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Example tweet text goes here. <a href="https://t.co/exampleURL">pic.twitter.com/exampleURL</a></p>&mdash; Twitter Handle (@username) <a href="https://twitter.com/username/status/1234567890123456789">Month Day, Year</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Made by <your_name> - <a href="https://www.holbertonschool.com" target="_blank">here</a>.</p>
+    </footer>
 </body>
 </html>
