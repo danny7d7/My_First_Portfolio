@@ -1,70 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Danny Lewis - Personal Porfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Danny Lewis - Personal Portfolio</title>
 </head>
 <body>
-	<header>
-		<h1></h1>
-		<p></p>
-	</header>
-	<nav>
-		<ul>
-			<li><a href="introduction">Introduction</a></li>
-			<li><a href="#projects">Projects</a></li>
-			<li><a href="aboutme">About Me</a></li>
-			<li><a href="contact">Contact</a></li>
-		</ul>
-	</nav>
-	<section>
-		
-		<section id="introduction">
-			<h2>Introduction</h2>
-			<p>I am a future frontend developer and I am curruntly grinding my web develepment skills.</p>
-		</section>
-		
-		<section id="projects">
-			<h2>Projects</h2>
-			
-			<article class="project">
-				<h3>Rock Paper Scissor game</h3>
-				<p>It is an interactive web app that can allow user to play the game and store their data.</p>
-				<a href="https://ehub.alxafrica.com/" target="_blank">Here</a>
-			</article>
-			
-			<article class="project">
-				<h3>ToDo list</h3>
-				<p>It is also an interactive web application where you can add and delete your tasks and store your data evenif you refresh or close the web.</p>
-				<a href="https://ehub.alxafrica.com/">Here</a>
-			</article>
-		</section>
-		
-		<section id="about">
-			<h2>About Me</h2>
-			<p>I am Danny Lewis, currently second year Engineering stundent at AASTU. My goal is to be advanced developer and own a company</p><h3>Skills</h3>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JavaScript</li>
-				<li>React</li>
-			</ul>
-			<h3>Hobbies</h3>
-			<ul>
-				<li>Novels</li>
-				<li>Chess</li>
-				<li>Football</li>
-			</ul>
-		</section>
-		<section id="contact">
-			<h2>Contact</h2>
-			<a href="https://www.linkedin.com/in/danny0988lewis/" target="_blank">danny0988lewis@gmail.com</a>
-		</section>
-	</section>
-	<article></article>
-	<footer>
-		<p>&copy; 2025 Danny</p>
-	</footer>
+    <header>
+        <h1>Danny's Portfolio</h1>
+        <p>Look at my portfolio and give me a job or feedback</p>
+    </header>
+    <nav>
+        <ul>
+            <!-- FIXED: Added '#' to the internal links -->
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li> <!-- Changed ID to match the section below -->
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main> <!-- Added a main tag to contain the primary content -->
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>I am a future frontend developer and I am currently grinding my web development skills.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <article class="project">
+                <h3>Rock Paper Scissor game</h3>
+                <p>It is an interactive web app that can allow user to play the game and store their data.</p>
+                <a href="https://ehub.alxafrica.com/" target="_blank">View Project</a> <!-- Improved link text -->
+            </article>
+            
+            <article class="project">
+                <h3>ToDo list</h3>
+                <p>It is also an interactive web application where you can add and delete your tasks and store your data even if you refresh or close the web.</p>
+                <a href="https://ehub.alxafrica.com/" target="_blank">View Project</a> <!-- Improved link text -->
+            </article>
+        </section>
+
+        <section id="about"> <!-- This id="about" matches the nav link -->
+            <h2>About Me</h2>
+            <p>I am Danny Lewis, currently a second year Engineering student at AASTU. My goal is to be an advanced developer and own a company.</p>
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ul>
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Novels</li>
+                <li>Chess</li>
+                <li>Football</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <!-- FIXED: Changed to a proper mailto link for email -->
+            <p>Email: <a href="mailto:danny0988lewis@gmail.com">danny0988lewis@gmail.com</a></p>
+            <!-- Added LinkedIn as a separate link -->
+            <p>Connect on <a href="https://www.linkedin.com/in/danny0988lewis/" target="_blank">LinkedIn</a></p>
+        </section>
+    </main> <!-- End of main content -->
+
+    <footer>
+        <p>&copy; 2025 Danny</p>
+    </footer>
 </body>
 </html>
